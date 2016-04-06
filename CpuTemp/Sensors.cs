@@ -74,7 +74,7 @@ namespace CpuTemp
             }
             catch(Exception ex)
             {
-                throw new Exception("The current OS does not Support WMI", ex);
+                throw new Exception("The current OS does not Support WMI");
             }
             return null;
         }
